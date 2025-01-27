@@ -10,7 +10,7 @@ apt install git -y
 
 The ``-y`` parameter answers yes to prompts without interrupting the process. to check the other options and syntax of ```apt```, you can visit this [link](https://phoenixnap.com/kb/apt-linux) for more info.
 
-To verify that it is installed use the command:
+To verify that it is installed on our system, use the command:
 
 ```
 dpkg -l | grep git
