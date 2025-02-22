@@ -32,6 +32,12 @@ git add <FILENAME YOU WANT GIT TO TRACK>
 ```
 <br>
 
+Additionally, if we want to track all the files insider the repository, we can achieve that using the command:
+```
+git add --all
+```
+<br>
+
 If we want to remove a file from being tracked, we can use the command:
 ```
 git rm --cached <FILENAME YOU WANT TO UNTRACK>
