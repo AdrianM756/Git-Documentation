@@ -28,7 +28,13 @@ git status
 
 Git add allow you the track and add a file in a staging area. To do this, we can use the command:
 ```
-git add <FILE YOU WANT GIT TO TRACK>
+git add <FILENAME YOU WANT GIT TO TRACK>
+```
+<br>
+
+If we want to remove a file from being tracked, we can use the command:
+```
+git rm --cached <FILENAME YOU WANT TO UNTRACK>
 ```
 <br>
 
