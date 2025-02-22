@@ -38,7 +38,7 @@ git add --all
 ```
 <br>
 
-For instance, if we decide to remove a file from a staging area/ staging tree, we can used the command:
+For instance, if we decide to remove a file from a staging area/staging tree, we can used the command:
 ```
 git --restored staged <FILENAME YOU WANT TO REMOVE FROM THE STAGING AREA>
 ```
@@ -49,6 +49,16 @@ If we want to remove a file from being tracked, we can use the command:
 git rm --cached <FILENAME YOU WANT TO UNTRACK>
 ```
 <br>
+
+***Question:***
+* Can I commit without adding the file to the staging area? will it still work?
+* if yes, is adding a file to a staging area necessary?
+<br>
+
+***Explaination:***
+* committing a file without adding it to the staging area will still work. However, it is recommended to stage the file as it helps to review changes that are made.
+<br>
+
 
 ## Git User and Git Commit
 
