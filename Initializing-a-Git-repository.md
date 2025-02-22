@@ -53,12 +53,16 @@ git rm --cached <FILENAME YOU WANT TO UNTRACK>
 ***Question:***
 * Can I commit without adding the file to the staging area? will it still work?
 * if yes, is adding a file to a staging area necessary?
+* What if I accidentally deleted a file? Can I still recover it?
 <br>
 
 ***Explaination:***
 * committing a file without adding it to the staging area will still work. However, it is recommended to stage the file as it helps to review changes that are made.
+* Deleted files can be still be recovered as long the deleted file is **tracked** using the [git restore](https://git-scm.com/docs/git-restore) command. For example:
+```
+git restore <"DELETED FILENAME">
+``` 
 <br>
-
 
 ## Git User and Git Commit
 
