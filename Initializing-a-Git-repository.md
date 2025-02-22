@@ -38,6 +38,12 @@ git add --all
 ```
 <br>
 
+For instance, if we decide to remove a file from a staging area/ staging tree, we can used the command:
+```
+git --restored staged <FILENAME YOU WANT TO REMOVE FROM THE STAGING AREA>
+```
+<br>
+
 If we want to remove a file from being tracked, we can use the command:
 ```
 git rm --cached <FILENAME YOU WANT TO UNTRACK>
@@ -78,5 +84,10 @@ echo NAME_OF_FILE >> .gitignore
 <br>
 
 Then when you run the ```git status``` command, the file will not appear at all.
+<br>
+
+## Git diff
+
+[Git diff](https://git-scm.com/docs/git-diff) allows you to see changes or modification
 
 
