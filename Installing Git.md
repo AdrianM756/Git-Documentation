@@ -1,3 +1,6 @@
+![image](https://www.svgrepo.com/show/452210/git.svg)
+
+
 [Git](https://git-scm.com/) is a free and open-source version control system that allow software development teams or alike to have multiple local copies of the project's code or file that are independent from each other.
 
 ## Installing Git
